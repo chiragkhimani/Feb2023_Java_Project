@@ -1,0 +1,26 @@
+package com.java.class13;
+
+//	  5
+//   54
+//  543
+// 5432
+//54321
+
+public class Pattern2 {
+	public static void main(String args[]) {
+
+		for (int i = 1; i <= 5; i++) {
+
+			for (int s = 1; s <= 5 - i; s++) {
+				System.out.print(" ");
+			}
+
+			for (int j = 5; j >= 6 - i; j--) {
+				System.out.print(j);
+			}
+
+			System.out.println();
+		}
+	}
+
+}
